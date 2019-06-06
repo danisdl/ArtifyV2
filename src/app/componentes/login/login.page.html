@@ -1,9 +1,20 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
+  <ion-toolbar class ="header">
+    <ion-title text-center>Iniciar sesión</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content padding>
+  <img class ="icon"src="assets/icon/Artify.svg" alt="">
+<ion-item>
+  <br>
+  <ion-label class = "label" position="floating"><strong>Correo electrónico</strong></ion-label>
+  <ion-input type ="text" [(ngModel)]="email"name ="email"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label class = "label" position="floating"><strong>Contraseña</strong></ion-label>
+  <ion-input type ="password" [(ngModel)] = "password" name ="pass"></ion-input>
+</ion-item>
+<br>
+<ion-button (click)="onSubmitLogin()" class = "btn-login"expand="block">Entrar</ion-button>
 </ion-content>
