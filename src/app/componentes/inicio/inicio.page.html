@@ -1,9 +1,27 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>inicio</ion-title>
+  <ion-toolbar class="header">
+    <ion-title text-center><strong>¡Bienvenido!</strong></ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <div class="background_image"></div>
+  <br>
+  <img class="icon" src="assets/icon/Artify.svg" alt="">
+  <br>
+  <ion-item>
+    <ion-label class="label">
+      <strong>¡Bienvenido a Artify!</strong>
+      <p>
+        ¡La aplicación para artistas de todos los estilos
+      </p>
+      <p>
+        y todos los tipos! Unete a esta gran comunidad.
+      </p>
+    </ion-label>
+  </ion-item>
+  <ion-button class="btn" expand="block" (click)="goToLogin()">Iniciar sesión</ion-button>
+  <ion-button class="btn" expand="block">Registrate</ion-button>
+
 
 </ion-content>
