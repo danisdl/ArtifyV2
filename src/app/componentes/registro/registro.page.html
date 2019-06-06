@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar class ="header">
+    <ion-title text-center>Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <img class ="icon"src="assets/icon/Artify.svg" alt="">
+
+</ion-item>
+  <br>
+  <ion-label class= "label" position="floating"><strong>Nombre</strong></ion-label>
+  <ion-input type="text" name="name"></ion-input>
+<ion-item>
+  <ion-label class = "label" position="floating"><strong>Apellido</strong></ion-label>
+  <ion-input type ="text"name ="last_name"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label class = "label" position="floating"><strong>Nombre de usuario</strong></ion-label>
+  <ion-input type ="text"name ="user_name"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label class = "label" position="floating"><strong>Correo electrónico</strong></ion-label>
+  <ion-input type ="text"name ="email"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label class = "label" position="floating"><strong>Contraseña</strong></ion-label>
+  <ion-input type ="password" name ="pass"></ion-input>
+</ion-item>
+<br>
+<ion-button (click)="onSubmitLogin()" class = "btn-login"expand="block">Entrar</ion-button>
+</ion-content>
