@@ -27,10 +27,19 @@
     display: block;
     margin-left: auto;
     margin-right:  auto;
-    --color: #4d0e4f;
+    --color: #ec6550;
 }
 .btn
 {
     --background: #ec6550;
     --color: white;
+}
+
+.divide
+{
+    --background: rgba(0, 0, 0, 0);
+}
+p
+{
+    color: white;
 }
