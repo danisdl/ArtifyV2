@@ -26,4 +26,9 @@ export class LoginPage implements OnInit {
       }).catch(err => alert('Los datos son incorrectos o no existe el usuario...'))
   }
 
+  goToReg()
+  {
+    this.router.navigate(['/registro']);
+  }
+
 }
