@@ -6,11 +6,11 @@
 
 <ion-content padding>
   <img class ="icon"src="assets/icon/Artify.svg" alt="">
-
-</ion-item>
   <br>
+<ion-item>
   <ion-label class= "label" position="floating"><strong>Nombre</strong></ion-label>
   <ion-input type="text" name="name"></ion-input>
+</ion-item>
 <ion-item>
   <ion-label class = "label" position="floating"><strong>Apellido</strong></ion-label>
   <ion-input type ="text"name ="last_name"></ion-input>
@@ -28,5 +28,6 @@
   <ion-input type ="password" name ="pass"></ion-input>
 </ion-item>
 <br>
-<ion-button (click)="onSubmitLogin()" class = "btn-login"expand="block">Entrar</ion-button>
+<ion-button (click)="onSubmitReg" class = "btn-registro" expand="block">Entrar</ion-button>
+<ion-button (click)="goToLogin()" class = "btn-registro"expand="block">¿Ya tienes cuenta? ¡Inicia sesión!</ion-button>
 </ion-content>
