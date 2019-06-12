@@ -1,0 +1,17 @@
+Requerimientos Artify:
+
+Los usuarios deben poder iniciar sesi�n.
+Los usuarios deben poder registrarse.
+Los usuarios deben poder publicar fotografias y contenido grafico.
+La aplicaci�n debe contar con un dise�o altamente atractivo para el usuario.
+Los usuarios deben poder votar por el contenido que mas sea de su agrado.
+Los usuarios deben poder inscribirse a los (concursos).
+Los usuarios al ganar un concurso, deben recibir monedas (coloroins) en forma de recompensa.
+Los usuarios deben poder canjear coloroins por recompensas variadas.
+Los usuarios deben poder modificar su perfil de artista.
+Los usuarios deben poder dar follow a artistas que sean de su agrado.
+Los (concursos) Ser�n de 4 tipos, diarios, semanales, quincenales y mensuales.
+Los usuarios deben poder comentar las fotos.
+Los usuarios deben poder unirse y retirarse de un concurso cuando lo deseen.
+Los usuarios deben poder pagar una suscripción que brinda beneficios extra (Ver requerimientos de Usuarios Premium).
+
