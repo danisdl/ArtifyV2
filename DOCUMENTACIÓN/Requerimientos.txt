@@ -15,3 +15,12 @@ Los usuarios deben poder comentar las fotos.
 Los usuarios deben poder unirse y retirarse de un concurso cuando lo deseen.
 Los usuarios deben poder pagar una suscripción que brinda beneficios extra (Ver requerimientos de Usuarios Premium).
 
+
+(Interaccion de publicaciones)
+Dar like
+comentar
+seguir publicación
+seguir usuario
+Ver mas informacion de la pubicacion
+Reportar publicacion
+
